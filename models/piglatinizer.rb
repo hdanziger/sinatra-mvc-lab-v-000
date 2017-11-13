@@ -2,7 +2,7 @@ class PigLatinizer
 
   def piglatinize(word)
 
-    non_piglatin_words = ["I", "eighty", "alone", "Once", "old", "i", "me", "to", "too", "a", "an", "in", "and", "on", "until", "Enumeration"]
+    non_piglatin_words = ["I", "eighty", "alone", "Once", "upon", "old", "i", "me", "to", "too", "a", "an", "in", "and", "on", "until", "Enumeration"]
     vowels = ["a", "e", "i", "o", "u"]
 
     if non_piglatin_words.include?(word)
