@@ -7,7 +7,7 @@ class PigLatinizer
 
     if non_pig_latin_words.include?(word)
       word + "way"
-    elsif vowels.include? word[0]
+    elsif vowels.include? word
       word << "ay"
     else
       letters = ""
