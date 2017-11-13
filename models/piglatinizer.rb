@@ -28,4 +28,4 @@ end
 
 p = PigLatinizer.new
 
-puts p.piglatinize("pork")
+#puts p.piglatinize("pork")
