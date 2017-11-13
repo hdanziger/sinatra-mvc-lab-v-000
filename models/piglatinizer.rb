@@ -17,7 +17,7 @@ class PigLatinizer
         word = word.split("")[1..-1].join
       end
       new_word = word + letters + 'ay'
-      new_word.string
+      new_word.to_s
     end
   end
 
