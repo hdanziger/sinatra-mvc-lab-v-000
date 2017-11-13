@@ -13,7 +13,6 @@ class PigLatinizer
       while !vowels.include?(word[0])
         letters << word[0]
         word = word.split("")[1..-1].join
-        word.split(" ")
       end
       word + letters + 'ay'
     end
