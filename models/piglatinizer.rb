@@ -8,8 +8,8 @@ class PigLatinizer
 
     if non_piglatin_words.include?(word)
       word << "way"
-    elsif vowels.include?(word[0])
-      word 
+    # elsif vowels.include?(word[0])
+    #   word
     else
       letters = ''
       while !vowels.include?(word[0])
@@ -27,5 +27,3 @@ class PigLatinizer
 end
 
 p = PigLatinizer.new
-
-#puts p.piglatinize("pork")
